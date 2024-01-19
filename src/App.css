@@ -36,6 +36,16 @@
     transform: rotate(360deg);
   }
 }
-.watermark.leftwatermark {
-  display: none;
+
+*{
+  margin:0
+}
+div#jaas-container,
+.App,
+div#root{
+  height: 100%;
+}
+body{
+  max-height: 100vh;
+    overflow: hidden;
 }
